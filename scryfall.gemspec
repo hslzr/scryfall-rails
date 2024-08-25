@@ -1,4 +1,4 @@
-# frozen_string_literal: true
+#git@github.com:hslzr/scryfall-rails.git frozen_string_literal: true
 
 Gem::Specification.new do |s|
   s.name        = 'scryfall'
@@ -22,4 +22,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec', '~> 3.2'
   s.add_development_dependency 'rubocop'
   s.add_runtime_dependency 'http', ['~> 4']
+  s.add_runtime_dependency 'resolv-replace', ['~> 0.1.1']
 end
