@@ -1,4 +1,4 @@
-#git@github.com:hslzr/scryfall-rails.git frozen_string_literal: true
+# frozen_string_literal: true
 
 Gem::Specification.new do |s|
   s.name        = 'scryfall'
