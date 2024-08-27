@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'scryfall/cards'
+require 'scryfall/version'
 
 describe Scryfall::Cards do
   describe 'Cards By Name' do
