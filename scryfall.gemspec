@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.email       = 'jlcarruda3@gmail.com'
   s.files       = ['lib/scryfall/cards.rb',
                    'lib/scryfall/error_handler.rb',
+                   'lib/scryfall/version.rb',
                    'lib/scryfall/errors.rb',
                    'lib/scryfall/api.rb',
                    'lib/scryfall/base.rb']
